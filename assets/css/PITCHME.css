@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/oswald-normal.woff2') format('woff2'),
+         url('/assets/fonts/oswald-normal.woff') format('woff');
+  }
+  
+  .oswald,
+  .oswald * {
+    text-shadow: none !important;
+    text-transform: none !important;
+    font-family: "Oswald", sans-serif !important;
+  }
+  
+  ul.none {
+    list-style-type: none;
+  }
+  
+  ul.none li {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    color: gray;
+  }
+  
+  ul.none li.current-fragment {
+    color: white;
+  }
+  
+  ul.no-bullet {
+    list-style-type: none;
+  }
+  
+  ul.process {
+    list-style-type: none;
+  }
+  
+  ul.process li:nth-child(odd) {
+    padding: 0.2em 0.3em 0.2em 0.4em;
+    border: 0.5em;
+    border-radius: 0.2em;
+    margin: 0em;
+    color: gray;
+    background:darkolivegreen;
+  }
+  
+  ul.process li.current-fragment:nth-child(odd)  {
+    color: white;
+    background:olivedrab;
+  }
+  
+  ul.process li.current-fragment:nth-child(even)::after{
+    color: white;
+  }
+  
+  ul.process li:nth-child(even)::after{
+    font-family: 'FontAwesome';
+    text-align: center;
+    content: '\f063';
+    color: grey;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  ul.process li:nth-child(even){
+    color: transparent;
+    margin: -0.4em;
+  }
+  
+  img.pipeline-img {
+    display: block;
+    max-width: 20em;
+    max-height: 12em;
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding: 0em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  img.pipeline-img-top {
+    top: 0% !important; 
+    transform: translate(-50%, -75%) !important;
+  }
+  
+  img.img-two-x {
+    width: 200% !important;
+    height: 200% !important;
+  }
+  
+  code.codelow > span.line {
+    font-size: 1.75em;
+    letter-spacing: -0.05em;
+    line-height: 0.86 !important;
+  }
+  
+  code.soft-break > span.line {
+    white-space:pre-line; 
+  }
+  
+  code.codelow {
+    max-height: 55em !important;
+  }
+  
+  img.just-img {
+    display: block;
+    max-width: 8em;
+    max-height: 12em;
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding: 0em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent !important;
+    border: 0em !important;
+  }
+  
+  table.reveal-no-border td {
+    border-bottom: none !important; 
+    padding: 0.2em 0em 0.2em 0.1em;
+    color: gray
+  }
+  
