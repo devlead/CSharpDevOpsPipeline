@@ -284,3 +284,30 @@ Cake.Tool
 @code[csharp fragment soft-break](assets/cake/publish.cake)
 @snapend
 
+
+---
+@title[Contact & Link]
+
+@snap[north-west span-70]
+
+#### Example project
+[github.com/azurevoodoo/CSharpDevOpsPipelineSwetugg2019](https://github.com/azurevoodoo/CSharpDevOpsPipelineSwetugg2019)
+<br />
+<br />
+#### Presentation
+[gitpitch.com/devlead/CSharpDevOpsPipelineSwetugg2019](https://gitpitch.com/devlead/CSharpDevOpsPipelineSwetugg2019)
+<br />
+<br />
+#### Cake
+[cakebuild.net](https://cakebuild.net)
+@snapend
+
+@snap[north-east span-22]
+<table class="reveal-no-border">
+    <tr><td>@fa[twitter]</td><td>[@devlead](https://twitter.com/devlead)</td></tr>
+    <tr><td>@fa[github]</td><td>[@devlead](https://github.com/devlead)</td></tr>
+    <tr><td>@fa[medium]</td><td>[@devlead](https://medium.com/@devlead)</td></tr>
+    <tr><td>@fa[linkedin]</td><td>[@devlead](https://www.linkedin.com/in/devlead)</td></tr>
+    <tr><td>@fa[globe]</td><td>[devlead.se](https://devlead.se)</td></tr>
+</table>
+@snapend
