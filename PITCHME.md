@@ -300,6 +300,8 @@ Cake.Tool
 <br />
 #### Cake
 [cakebuild.net](https://cakebuild.net)
+<br />
+[github.com/cake-build/cake](https://github.com/cake-build/cake)
 @snapend
 
 @snap[north-east span-22]
