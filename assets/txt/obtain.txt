@@ -1,0 +1,7 @@
+# First Time
+dotnet new tool-manifest
+dotnet tool install Cake.Tool
+
+# When in-place 
+dotnet tool restore
+dotnet cake

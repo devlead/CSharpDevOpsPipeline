@@ -140,6 +140,45 @@ as code using C# @fa[rocket text-orange]
 @ulend
 @snapend
 ---
+@title[Sample Solution]
+
+@snap[north]
+@fa[document] Sample Solution
+@snapend
+
+@snap[fragment]
+@code[text](assets/txt/sampleproject.txt)
+@[11](Solution)
+@[2](.NET Assembly)
+@[5](Unit Test Project)
+@[8](Console App / Global tool)
+@snapend
+---
+@title[Obtaining Cake]
+
+@snap[north]
+@fa[download] Obtaining Cake
+@snapend
+
+@snap[west span-32]
+@ul[none]
+- NuGet - Cake, Cake.Tool, Cake.CoreCLR
+- Chocolatey - Cake.Portable
+- Home Brew - Cake
+- Docker Hub - cakebuild/cake
+@ulend
+@snapend
+
+@snap[north-east fragment snap-50]
+Cake.Tool
+@code[fragment](assets/txt/obtain.txt)
+@[2](Create local tools manifest)
+@[3](Install Cake)
+@[6](Install Cake if missing)
+@[7](Execute Cake script)
+@snapend
+
+---
 @title[Restore]
 
 @snap[north]

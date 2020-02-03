@@ -1,0 +1,11 @@
+src
+├── HelloWorldApp.Common
+│   ├── Greeter.cs
+│   └── HelloWorldApp.Common.csproj
+├── HelloWorldApp.Tests
+│   ├── GreeterTests.cs
+│   └── HelloWorldApp.Tests.csproj
+├── HelloWorldApp.Tool
+│   ├── HelloWorldApp.Tool.csproj
+│   └── Program.cs
+└── HelloWorldApp.sln
