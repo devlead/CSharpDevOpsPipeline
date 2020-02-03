@@ -223,3 +223,25 @@ as code using C# @fa[rocket text-orange]
 ## CAKE
 @code[csharp fragment](assets/cake/package.cake)
 @snapend
+---
+@title[Publish]
+
+@snap[north]
+@fa[cloud-upload] Publish
+@snapend
+
+@snap[north-west span-30 fragment]
+## Classic
+@img[borderless fragment](assets/img/adoclassic/publish.png)
+@snapend
+
+@snap[north-east span-70 fragment]
+## YAML
+@code[yaml fragment soft-break](assets/yaml/publish.yaml)
+@snapend
+
+@snap[south-east span-70 fragment]
+## CAKE
+@code[csharp fragment soft-break](assets/cake/publish.cake)
+@snapend
+
