@@ -2,5 +2,5 @@
   displayName: 'dotnet pack'
     inputs:
       command: pack
-      packagesToPack: '**/*.sln'
+      packagesToPack: 'src'
       packDirectory: './artifacts'

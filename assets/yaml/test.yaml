@@ -2,4 +2,4 @@
     displayName: 'dotnet test'
     inputs:
         command: test
-        projects: '**/*.sln'
+        projects: 'src'
