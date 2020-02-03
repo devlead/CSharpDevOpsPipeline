@@ -283,8 +283,21 @@ Cake.Tool
 ## CAKE
 @code[csharp fragment soft-break](assets/cake/publish.cake)
 @snapend
+---
+@title[Extensibility]
+@snap[north]
+@fa[puzzle-piece] Extensibility
+@snapend
 
-
+@snap[]
+@ul[none]
+- Addins
+- Scripts
+- Modules
+@ulend
+@snapend
+---
+@title[Extensibility]
 ---
 @title[Contact & Link]
 
