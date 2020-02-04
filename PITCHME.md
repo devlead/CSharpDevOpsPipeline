@@ -297,7 +297,22 @@ Cake.Tool
 @ulend
 @snapend
 ---
-@title[Extensibility]
+@title[Preprocessor directives]
+
+@snap[north]
+@fa[hashtag] Preprocessor directives
+@snapend
+
+@snap[span-100]
+@ul[none]
+- #addin nuget:?package=Cake.Foo&version=1.2.3
+- #load scripts/utilities.cake
+- #load nuget:?package=My.Cake.Scripts
+- #module nuget:?package=Cake.Foo.Module&version=1.2.3
+@ulend
+@snapend
+---
+@title[Dramatic pause]
 ---
 @title[Contact & Link]
 

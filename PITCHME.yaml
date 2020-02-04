@@ -4,4 +4,4 @@ theme-override : assets/css/PITCHME.css
 footnote : "<a style='text-decoration: none; color: white;' href='https://twitter.com/devlead'>@devlead</a>"
 eager-loading : true
 code-line-numbers : true
-published: false
+published: true
