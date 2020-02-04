@@ -1,6 +1,6 @@
 Task("Package")
 .Does(() => {
-  DotNetCorePack("**/*.sln",
+  DotNetCorePack("src",
     new DotNetCorePackSettings {
         OutputDirectory = "./artifacts"
     });

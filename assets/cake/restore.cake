@@ -1,4 +1,4 @@
 Task("Restore")
 .Does(() => {
-  DotNetCoreRestore("**/*.sln");
+  DotNetCoreRestore("src");
 });

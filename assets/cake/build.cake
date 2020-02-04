@@ -1,4 +1,4 @@
 Task("Build")
 .Does(() => {
-  DotNetCoreBuild("**/*.sln");
+  DotNetCoreBuild("src");
 });

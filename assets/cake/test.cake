@@ -1,4 +1,4 @@
 Task("Test")
 .Does(() => {
-  DotNetCoreTest("**/*.sln");
+  DotNetCoreTest("src");
 });
