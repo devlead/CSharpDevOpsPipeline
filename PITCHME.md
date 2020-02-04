@@ -160,12 +160,12 @@ as code using C# @fa[rocket text-orange]
 @fa[download] Obtaining Cake
 @snapend
 
-@snap[west span-32]
+@snap[west span-36]
 @ul[none]
-- NuGet - Cake, Cake.Tool, Cake.CoreCLR
-- Chocolatey - Cake.Portable
-- Home Brew - Cake
-- Docker Hub - cakebuild/cake
+- NuGet:<br/>Cake, Cake.Tool, Cake.CoreCLR, Cake.Frosting
+- Chocolatey:<br/>Cake.Portable
+- Home Brew:<br/>Cake
+- Docker Hub:<br/>cakebuild/cake
 @ulend
 @snapend
 
@@ -176,6 +176,16 @@ Cake.Tool
 @[3](Install Cake)
 @[6](Install Cake if missing)
 @[7](Execute Cake script)
+@snapend
+---
+@title[File -> New-> Cake]
+
+@snap[north]
+@fa[document] File @fa[caret-right] New @fa[caret-right] Cake
+@snapend
+
+@snap[span-24 fragment midpoint]
+@img[borderless](/assets/img/cake.svg)
 @snapend
 
 ---
