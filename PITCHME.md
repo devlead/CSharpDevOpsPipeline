@@ -326,7 +326,7 @@ Cake.Tool
 ---
 @title[Contact & Link]
 
-@snap[north-west span-70]
+@snap[north-west span-78]
 
 #### Example project
 [github.com/azurevoodoo/CSharpDevOpsPipelineSwetugg2019](https://github.com/azurevoodoo/CSharpDevOpsPipelineSwetugg2019)
@@ -335,11 +335,11 @@ Cake.Tool
 #### Presentation
 [gitpitch.com/devlead/CSharpDevOpsPipelineSwetugg2019](https://gitpitch.com/devlead/CSharpDevOpsPipelineSwetugg2019)
 <br />
+[@fa[youtube]youtube.com/watch?v=ZeGMTuuEKxM](https://www.youtube.com/watch?v=ZeGMTuuEKxM)
+<br />
 <br />
 #### Cake
 [cakebuild.net](https://cakebuild.net)
-<br />
-[github.com/cake-build/cake](https://github.com/cake-build/cake)
 @snapend
 
 @snap[north-east span-22]
